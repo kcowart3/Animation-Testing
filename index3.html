@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <style>
+
+        @keyframes rainbow-shift {
+        0% {
+            background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+        }
+        14.3% {
+            background-image: linear-gradient(to right, violet, red, orange, yellow, green, blue, indigo);
+        }
+        28.6% {
+            background-image: linear-gradient(to right, indigo, violet, red, orange, yellow, green, blue);
+        }
+        42.9% {
+            background-image: linear-gradient(to right, blue, indigo, violet, red, orange, yellow, green);
+        }
+        57.2% {
+                background-image: linear-gradient(to right, green, blue, indigo, violet, red, orange, yellow);
+        }
+        71.5% {
+                background-image: linear-gradient(to right, yellow, green, blue, indigo, violet, red, orange);
+        }
+        85.8% {
+                background-image: linear-gradient(to right, orange, yellow, green, blue, indigo, violet, red);
+        }    
+        100% {
+            background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+        }
+        }
+
+        body{
+
+            animation: rainbow-shift 1s linear infinite;
+        }
+        </style>
+        <title>Animation Practice</title>
+    </head>
+    
+    <body>
+        <p><a href="main.html">Return</a></p>
+
+    </body>
+</html>
